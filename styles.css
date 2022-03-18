@@ -22,8 +22,8 @@ html{
 
 header{
     text-align: center;
-    padding: 1rem;
-    font-weight: 20px;
+    padding: 10px;
+    font-weight: 30px;
 }
 
 .main{
@@ -37,6 +37,7 @@ header{
 .main .items{
     display: flex;
     background-color: var(--primary);
+    border-radius: 10px;
     width: 50%;
     flex-direction: column;
     justify-content: center;
@@ -47,6 +48,7 @@ header{
 .main .items .item{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 
@@ -65,6 +67,6 @@ header{
     justify-content: center;
     background: var(--light);
     margin: 10px;
-    height: 40px;
+    height: 60px;
     width: 60%;
 }
